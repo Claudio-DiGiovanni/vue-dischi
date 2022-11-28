@@ -11,6 +11,7 @@
         :year="disc.year"
         />
       </div>
+      <loaderPage v-else />
     </div>
   </main>
 </template>
@@ -18,10 +19,12 @@
 <script>
 import axios from 'axios';
 import discCard from '@/components/discCard.vue';
+import loaderPage from '@/components/loaderPage.vue';
 
 export default {
   components: {
     discCard,
+    loaderPage,
   },
   data() {
     return {

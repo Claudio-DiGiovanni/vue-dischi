@@ -33,12 +33,17 @@ export default {
 .contents {
   background-color: #2a3942;
   padding: 1rem;
-  height: 18rem;
+  height: 22rem;
+  margin: 1rem;
+  border-radius: 10px;
 }
 
 .name {
   color: white;
   font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .info {
